@@ -52,7 +52,7 @@ const Home = () => {
                     zIndex: 0,
                     filter: 'brightness(0.6)'
                 }}>
-                    <source src="http://localhost:5000/uploads/2.mp4" type="video/mp4" />
+                    <source src="https://watchselling-website-mern.onrender.com/uploads/2.mp4" type="video/mp4" />
                 </video>
 
                 {/* Overlay Text */}
