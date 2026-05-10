@@ -9,7 +9,7 @@ const About = () => {
                 height: '70vh',
                 minHeight: '500px',
                 position: 'relative',
-                backgroundImage: 'url("http://localhost:5000/uploads/9.jpg")',
+                backgroundImage: 'url("https://watchselling-website-mern.onrender.com/uploads/9.jpg")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundAttachment: 'fixed', // Parallax effect
