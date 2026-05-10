@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }) => {
         setIsFetching(true);
         setError(false);
         try {
-            const res = await axios.post("http://localhost:5000/api/auth/login", userCredentials);
+            const res = await axios.post("https://watchselling-website-mern.onrender.com/api/auth/login", userCredentials);
             setUser(res.data);
             setIsFetching(false);
         } catch (err) {
@@ -51,7 +51,7 @@ export const AuthProvider = ({ children }) => {
         setIsFetching(true);
         setError(false);
         try {
-            await axios.post("http://localhost:5000/api/auth/register", userData);
+            await axios.post("https://watchselling-website-mern.onrender.com/api/auth/register", userData);
             setIsFetching(false);
         } catch (err) {
             setError(true);

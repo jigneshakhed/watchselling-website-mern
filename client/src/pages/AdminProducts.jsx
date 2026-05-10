@@ -63,7 +63,7 @@ const AdminProducts = () => {
                             <tr key={p._id} style={{ borderBottom: "1px solid var(--border-color)" }}>
                                 <td style={{ padding: "15px", textAlign: "left" }}>
                                     <div style={{ width: '50px', height: '50px', backgroundColor: 'var(--bg-light)', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '5px' }}>
-                                        <img src={p.image.startsWith('http') ? p.image : `http://localhost:5000/uploads/${p.image}`} style={{ maxWidth: "40px", maxHeight: "40px", objectFit: "contain" }} alt={p.name} />
+                                        <img src={p.image.startsWith('http') ? p.image : `https://watchselling-website-mern.onrender.com/uploads/${p.image}`} style={{ maxWidth: "40px", maxHeight: "40px", objectFit: "contain" }} alt={p.name} />
                                     </div>
                                 </td>
                                 <td style={{ padding: "15px", fontSize: '14px', fontWeight: '500', color: 'var(--text-main)' }}>{p.name}</td>

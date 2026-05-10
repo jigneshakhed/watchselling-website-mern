@@ -58,7 +58,7 @@ const Cart = () => {
                     {cart.map((product) => (
                         <div style={{ display: "flex", justifyContent: "space-between", borderBottom: "0.5px solid lightgray", padding: "20px 0" }} key={product._id}>
                             <div style={{ flex: 2, display: "flex" }}>
-                                <img src={product.image && (product.image.startsWith('http') ? product.image : `http://localhost:5000/uploads/${product.image}`)} style={{ width: "200px", objectFit: "contain" }} alt={product.name} />
+                                <img src={product.image && (product.image.startsWith('http') ? product.image : `https://watchselling-website-mern.onrender.com/uploads/${product.image}`)} style={{ width: "200px", objectFit: "contain" }} alt={product.name} />
                                 <div style={{ padding: "20px", display: "flex", flexDirection: "column", justifyContent: "space-around" }}>
                                     <span><b>Product:</b> {product.name}</span>
                                     <span><b>ID:</b> {product._id}</span>

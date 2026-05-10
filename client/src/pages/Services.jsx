@@ -22,7 +22,7 @@ const Services = () => {
                 <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "60px", marginBottom: '100px' }}>
                     <div style={{ flex: "1 1 500px" }}>
                         <img
-                            src="http://localhost:5000/uploads/23.jpg"
+                            src="https://watchselling-website-mern.onrender.com/uploads/23.jpg"
                             alt="Watch Servicing"
                             style={{ width: "100%", height: "auto", objectFit: "cover", boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }}
                         />
@@ -53,7 +53,7 @@ const Services = () => {
                     </div>
                     <div style={{ flex: "1 1 500px" }}>
                         <img
-                            src="http://localhost:5000/uploads/1.jpg"
+                            src="https://watchselling-website-mern.onrender.com/uploads/1.jpg"
                             alt="Watch Polishing"
                             style={{ width: "100%", height: "auto", objectFit: "cover", boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }}
                         />
@@ -64,7 +64,7 @@ const Services = () => {
                 <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "60px" }}>
                     <div style={{ flex: "1 1 500px" }}>
                         <img
-                            src="http://localhost:5000/uploads/24.jpg"
+                            src="https://watchselling-website-mern.onrender.com/uploads/24.jpg"
                             alt="Water Resistance Test"
                             style={{ width: "100%", height: "auto", objectFit: "cover", boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }}
                         />

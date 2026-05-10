@@ -1,7 +1,7 @@
 const testApi = async () => {
     try {
         console.log("Attempting login...");
-        const loginRes = await fetch("http://localhost:5000/api/auth/login", {
+        const loginRes = await fetch("https://watchselling-website-mern.onrender.com/api/auth/login", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -21,7 +21,7 @@ const testApi = async () => {
 
         // Testing Legacy Header support
         console.log("Testing support for legacy 'token' header...");
-        const legacyRes = await fetch("http://localhost:5000/api/orders", {
+        const legacyRes = await fetch("https://watchselling-website-mern.onrender.com/api/orders", {
             method: 'GET',
             headers: { 'token': `Bearer ${token}` }
         });
@@ -29,7 +29,7 @@ const testApi = async () => {
 
         // Testing Standard Header
         console.log("Testing support for standard 'Authorization' header...");
-        const standardRes = await fetch("http://localhost:5000/api/orders", {
+        const standardRes = await fetch("https://watchselling-website-mern.onrender.com/api/orders", {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });

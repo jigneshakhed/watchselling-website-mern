@@ -67,7 +67,7 @@ const AdminOrders = () => {
                                                 <div style={{ width: '35px', height: '35px', backgroundColor: 'var(--bg-light)', borderRadius: '4px', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                                     {item.productId?.image ? (
                                                         <img 
-                                                            src={item.productId.image.startsWith('http') ? item.productId.image : `http://localhost:5000/uploads/${item.productId.image}`} 
+                                                            src={item.productId.image.startsWith('http') ? item.productId.image : `https://watchselling-website-mern.onrender.com/uploads/${item.productId.image}`} 
                                                             alt="" 
                                                             style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
                                                         />

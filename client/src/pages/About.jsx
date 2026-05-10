@@ -60,14 +60,14 @@ const About = () => {
                             </p>
                         </div>
                         <div style={{ flex: '1 1 500px' }}>
-                            <img src="http://localhost:5000/uploads/8.jpg" alt="Watchmaking process" style={{ width: '100%', objectFit: 'cover', height: '600px', boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }} />
+                            <img src="https://watchselling-website-mern.onrender.com/uploads/8.jpg" alt="Watchmaking process" style={{ width: '100%', objectFit: 'cover', height: '600px', boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }} />
                         </div>
                     </div>
 
                     {/* Block 2 */}
                     <div style={{ display: 'flex', flexWrap: 'wrap-reverse', gap: '60px', alignItems: 'center' }}>
                         <div style={{ flex: '1 1 500px' }}>
-                            <img src="http://localhost:5000/uploads/13.jpg" alt="Master Watchmaker" style={{ width: '100%', objectFit: 'cover', height: '600px', boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }} />
+                            <img src="https://watchselling-website-mern.onrender.com/uploads/13.jpg" alt="Master Watchmaker" style={{ width: '100%', objectFit: 'cover', height: '600px', boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }} />
                         </div>
                         <div style={{ flex: '1 1 400px', paddingLeft: '40px' }}>
                             <h2 style={{ color: 'var(--secondary)', fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase', marginBottom: '15px', fontWeight: 'bold' }}>The Artisans</h2>

@@ -54,7 +54,7 @@ const Footer = () => {
                     <div style={{ marginBottom: "25px", display: "flex", alignItems: "center", color: "var(--text-light)", fontSize: "14px" }}>
                         <FaEnvelope style={{ marginRight: "12px", color: "var(--secondary)" }} /> TackEasy@watch.com
                     </div>
-                    <img src="http://localhost:5000/uploads/payment.png" alt="payment" style={{ width: "150px", opacity: 0.8 }} />
+                    <img src="https://watchselling-website-mern.onrender.com/uploads/payment.png" alt="payment" style={{ width: "150px", opacity: 0.8 }} />
                 </div>
             </div>
         </footer>

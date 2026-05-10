@@ -163,7 +163,7 @@ const Shop = ({ category: initialCategory }) => {
                             <div onClick={() => navigate(`/product/${item._id}`)} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
                                 <div style={{ height: "260px", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "30px", padding: '10px' }}>
                                     <img
-                                        src={item.image.startsWith('http') ? item.image : `http://localhost:5000/uploads/${item.image}`}
+                                        src={item.image.startsWith('http') ? item.image : `https://watchselling-website-mern.onrender.com/uploads/${item.image}`}
                                         style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain", filter: "brightness(0.95)" }}
                                         alt={item.name}
                                     />

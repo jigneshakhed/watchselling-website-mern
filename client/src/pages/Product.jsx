@@ -59,7 +59,7 @@ const Product = () => {
                 padding: '60px'
             }}>
                 <img
-                    src={product.image && (product.image.startsWith('http') ? product.image : `http://localhost:5000/uploads/${product.image}`)}
+                    src={product.image && (product.image.startsWith('http') ? product.image : `https://watchselling-website-mern.onrender.com/uploads/${product.image}`)}
                     style={{ maxWidth: "100%", maxHeight: "80vh", objectFit: "contain", filter: "drop-shadow(0px 20px 30px rgba(0,0,0,0.1))" }}
                     alt={product.name}
                 />

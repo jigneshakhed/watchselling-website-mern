@@ -4,7 +4,7 @@ export const blogData = [
         title: "Exploring Horology",
         subtitle: "The mechanics of excellence",
         description: "A deep dive into the intricate mechanics and engineering marvels that power our finest timepieces. Discover what it takes to measure time with absolute precision.",
-        image: "http://localhost:5000/uploads/22.jpg",
+        image: "https://watchselling-website-mern.onrender.com/uploads/22.jpg",
         date: "October 12, 2025",
         content: `
             <p>Horology, the study and measurement of time, is both a rigorous science and a profound art. At the heart of every Take Easy watch lies a complex ecosystem of gears, springs, and levers, all working in perfect synchronicity to capture the fleeting essence of a second.</p>
@@ -27,7 +27,7 @@ export const blogData = [
         title: "The Art of Watchmaking",
         subtitle: "Craftsmanship & Heritage",
         description: "Understanding the true craft behind luxury watches. From the selection of precious metals to the meticulous hand-assembly by generations of master artisans.",
-        image: "http://localhost:5000/uploads/17.jpg",
+        image: "https://watchselling-website-mern.onrender.com/uploads/17.jpg",
         date: "November 5, 2025",
         content: `
             <p>Watchmaking is a tradition that spans centuries, passed down from master to apprentice like a sacred secret. It is a pursuit of perfection that requires patience, a steady hand, and an uncompromising eye for detail.</p>
@@ -46,7 +46,7 @@ export const blogData = [
         title: "Care for Your Timepiece",
         subtitle: "Preserving Perfection",
         description: "Essential tips to ensure your watch lasts a lifetime. Learn how to protect your investment and maintain the flawless chronometric performance of your Take Easy.",
-        image: "http://localhost:5000/uploads/15.jpg",
+        image: "https://watchselling-website-mern.onrender.com/uploads/15.jpg",
         date: "December 20, 2025",
         content: `
             <p>A fine timepiece is designed to last a lifetime, and perhaps even several. However, like any precision instrument, it requires proper care and maintenance to ensure it continues to perform at its peak.</p>
@@ -66,7 +66,7 @@ export const blogData = [
         title: "The Legacy of Gold",
         subtitle: "Lustre and Longevity",
         description: "Explore the proprietary gold alloys used in our timepieces and why they remain the standard for luxury horology.",
-        image: "http://localhost:5000/uploads/16.jpg",
+        image: "https://watchselling-website-mern.onrender.com/uploads/16.jpg",
         date: "January 15, 2026",
         content: `
             <p>Gold has always been the ultimate symbol of success and prestige. In the world of Take Easy, we don't just use gold; we refine the very concept of it using proprietary alloys that ensure a lustre that never fades.</p>
@@ -85,7 +85,7 @@ export const blogData = [
         title: "Timeless Design Principles",
         subtitle: "Aesthetics of the Era",
         description: "Defining the visual language that makes a watch instantly recognizable across decades.",
-        image: "http://localhost:5000/uploads/11.jpg",
+        image: "https://watchselling-website-mern.onrender.com/uploads/11.jpg",
         date: "February 2, 2026",
         content: `
             <p>Good design is not just about how something looks; it's about how it works and how it feels on the wrist. Our design philosophy is rooted in the balance between form and function, ensuring that every element serves a purpose.</p>

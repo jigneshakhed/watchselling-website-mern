@@ -65,7 +65,7 @@ const MyOrders = () => {
                                         <div style={{ width: '60px', height: '60px', backgroundColor: 'var(--bg-light)', borderRadius: '8px', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid var(--border-color)' }}>
                                             {item.productId?.image && (
                                                 <img 
-                                                    src={item.productId.image.startsWith('http') ? item.productId.image : `http://localhost:5000/uploads/${item.productId.image}`} 
+                                                    src={item.productId.image.startsWith('http') ? item.productId.image : `https://watchselling-website-mern.onrender.com/uploads/${item.productId.image}`} 
                                                     alt="" 
                                                     style={{ width: '80%', height: '80%', objectFit: 'contain' }} 
                                                 />

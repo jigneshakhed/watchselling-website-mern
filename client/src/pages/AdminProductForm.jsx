@@ -52,7 +52,7 @@ const AdminProductForm = () => {
         const data = new FormData();
         data.append("file", file);
         try {
-            const res = await axios.post("http://localhost:5000/api/upload", data);
+            const res = await axios.post("https://watchselling-website-mern.onrender.com/api/upload", data);
             return res.data; // returns filename
         } catch (err) {
             console.error(err);
@@ -201,7 +201,7 @@ const AdminProductForm = () => {
                         {product.image && !file && (
                             <div style={{ marginTop: '15px', padding: '10px', backgroundColor: 'white', display: 'inline-block', borderRadius: '5px' }}>
                                 <p style={{ margin: '0 0 5px 0', fontSize: '12px', color: 'var(--text-light)' }}>Current Image Preview:</p>
-                                <img src={product.image.startsWith('http') ? product.image : `http://localhost:5000/uploads/${product.image}`} alt="Preview" style={{ height: '80px', objectFit: 'contain' }} />
+                                <img src={product.image.startsWith('http') ? product.image : `https://watchselling-website-mern.onrender.com/uploads/${product.image}`} alt="Preview" style={{ height: '80px', objectFit: 'contain' }} />
                             </div>
                         )}
                     </div>

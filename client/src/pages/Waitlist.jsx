@@ -54,7 +54,7 @@ const Waitlist = () => {
                                     gap: '20px'
                                 }}>
                                     <div style={{ width: '100px', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                        <img src={item.image.startsWith('http') ? item.image : `http://localhost:5000/uploads/${item.image}`} alt={item.name} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                                        <img src={item.image.startsWith('http') ? item.image : `https://watchselling-website-mern.onrender.com/uploads/${item.image}`} alt={item.name} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                                     </div>
                                     <div style={{ flex: 1, minWidth: '200px' }}>
                                         <Link to={`/product/${item._id}`} style={{ textDecoration: 'none' }}>

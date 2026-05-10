@@ -16,7 +16,7 @@ const CareAndService = () => {
             {/* Hero Image */}
             <div style={{ width: '100%', height: '50vh', minHeight: '400px' }}>
                 <img
-                    src="http://localhost:5000/uploads/4.jpg"
+                    src="https://watchselling-website-mern.onrender.com/uploads/4.jpg"
                     alt="Watch care"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
